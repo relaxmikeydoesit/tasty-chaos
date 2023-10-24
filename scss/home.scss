@@ -1,0 +1,71 @@
+.header-main {
+    width: 100vw;
+    height: 90px;
+    background-color: #3d405b;
+    position: fixed;
+
+
+.site-logo-space {
+    width: 350px;
+    height: 85px;
+    background-image: url(../images/logo-neon-350x125.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    }
+}
+
+.main-content--home {
+    width: 100vw;
+    height: 485px;
+    // background-color: coral;
+    background-image: url(../images/slate-background-food.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    .textbox-main {
+        width: 490px;
+        height: 480px;
+        background-color: rgba(#f0f8ff , 0.3);
+        font-size: 3.5rem;
+        font-weight: 600;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: darkred;
+        margin: auto 60px;
+        padding: 55px 40px 0 20px;
+
+        button {
+            color: #edd15d;
+            background-color: darkslategrey;
+            width: 225px;
+            height: 45px;
+            border-radius: 45px;
+            font-size: 1.5rem;
+            margin: 20px 0;
+            
+        }
+
+    }
+
+}
+
+footer {
+    width: 100vw;
+    height: auto;
+    background-color: black;
+    color: #ffffff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1rem;
+    text-align: center;
+    padding: 6px;
+    margin: 10px 5px 0px 5px;
+
+
+
+    #hire {
+        font-size: 1rem;
+        border: none;
+        text-decoration: underline;
+    }
+}
